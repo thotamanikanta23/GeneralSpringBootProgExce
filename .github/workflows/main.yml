@@ -2,8 +2,7 @@ name: CI/CD Pipeline
 
 # Trigger on push to the main branch and pull requests
 on:
-  push:
-    branches:
+ branches:
       - development
   workflow_dispatch:    
   pull_request:
