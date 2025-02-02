@@ -15,8 +15,8 @@ jobs:
         with:
           java-version: '17'
           distribution: 'microsoft'
-      - run: mvn --batch-mode --update-shapshots verify
-      - run: mkdir staging && cp target/*.jar staging
+      - run: mvn --batch-mode --update-snapshots verify
+      - run: mkdir staging &&  cp target/*.jar staging
       
       
           
