@@ -1,7 +1,6 @@
 name: Setup Java and maven 
 
 on:
- push:
  workflow_dispatch:
 
 jobs:
